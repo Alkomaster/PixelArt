@@ -1,0 +1,35 @@
+.color{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    margin: 0;
+}
+
+.fleeex{
+    display: grid;
+    grid-template-columns: repeat(39, 52px);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.wh{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.upBar{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
